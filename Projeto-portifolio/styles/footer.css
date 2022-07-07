@@ -30,12 +30,22 @@
   color: currentColor;
 }
 
+.icon{
+  max-width: 40px;
+  max-height: 40px;
+  width: auto;
+  height: auto;
+}
+
 .footer-copy {
   font-size: 1rem;
   color: #646363;
   grid-column:  1 / -1;
 }
 
+.f-contact:hover{
+  color:#87e816;
+}
 @media (max-width: 800px) {
   .footer-container {
     grid-template-columns: 1fr;
